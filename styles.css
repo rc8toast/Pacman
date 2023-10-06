@@ -1,0 +1,22 @@
+body, html, canvas {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+canvas {
+    width: min(100vw, 100vh);
+    height: min(100vw, 100vh);
+    aspect-ratio: 1;
+    background-color: blue !important;
+}
+
+* {
+    transform: translateX(200px);
+}
